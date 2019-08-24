@@ -766,14 +766,7 @@ a.hamburger.hamburger--spin:hover .hamburger-inner, a.hamburger.hamburger--spin:
   top: 50%;
   transform: translateY(-50%);
 }
-.portfolio-slider.mobile-app-portfolio {
-	padding: 0px 0px 0px 0px;
-}
-.mobile-app-portfolio img {
-	width: 305px;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .portfolio-slider.standard-square img {
   width: 446px;
   margin-left: auto;
@@ -1067,8 +1060,7 @@ ul.slick-dots li.slick-active button, ul.slick-dots li button:hover {
   }A
 
   .portfolio-img {
-    max-width:100%;
-    max-height:100%;
+    object-fit: fill
   }
 
 	.slider-pagination {
